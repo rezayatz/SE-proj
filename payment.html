@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+<style type="text/css">
+        body {
+            background-color: #ffe8e8 !important;
+        }
+</style>
     <meta charset="UTF-8">
     <title>پرداخت</title>
 
@@ -14,15 +20,7 @@
 
 </head>
 <body>
-<div class="ui sidebar thin labeled menu vertical inverted fixed icon" id="sidebar">
-   
-</div>
 
-<div class="ui top horizontal menu visible inverted fixed" id="topar">
-    
-    
-    
-</div>
 <div class="main pusher dimmer">
     <div class="ui grid">
         <div class="eight wide centered column">
@@ -41,7 +39,7 @@
                     <div class="required field">
                         <label>شماره کارت</label>
                         <input type="creditCard">
-                        <input type="digit">
+                        <input type="digit number">
                         <input type="digit number">
                         <input type="digit">
                     </div>
@@ -88,13 +86,15 @@
 
                     
             </div>
-             <div class="ui inverted vertical masthead center aligned segment">
+                            <h2 class="ui dividing red header"></h2>
+
+             <div class="ui vertical masthead center aligned segment">
 
                                 <div class="ui text container">
 
                                     <div>
-                    <div class="ui big  centered green submit button">پرداخت</div>
-                    <div class="ui big  centered red submit button">انصراف</div>
+                    <a href="confirm.html"><div class="ui big  centered blue submit button">پرداخت</div></a>
+                    <div class="ui big  centered submit button">انصراف</div>
                     </div>
                                 </div>        
 
